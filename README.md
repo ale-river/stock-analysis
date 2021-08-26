@@ -14,33 +14,33 @@ Efficiency in time shows below:
 - 2017 time variance efficiency between refactored and original script: The refactored script shows improvement because the tickers were indexed before looping through all the stocks.
 TIME SAVE: 0.027 seconds
 
-![Run-time 2017 with original script] (https://github.com/ale-river/stock-analysis/blob/main/Resources/Run-time%202017_original.png)
+![Run-time 2017 with original script](Resources/Run-time%202017_original.png)
 
-![Run-time 2017 with refactored script] (https://github.com/ale-river/stock-analysis/blob/main/Resources/Run-time%202017_refactored.png)
+![Run-time 2017 with refactored script](Resources/Run-time%202017_refactored.png)
 
 - 2018 time variance efficiency between refactored and original script: The refactored script shows improvement because the tickers were indexed before looping through all the stocks.
 TIME SAVE: 0.058 seconds
 
-![Run-time 2018 with original script] (https://github.com/ale-river/stock-analysis/blob/main/Resources/Run-time_2018_original.png)
+![Run-time 2018 with original script](Resources/Run-time_2018_original.png)
 
-![Run-time 2018 with refactored script] (https://github.com/ale-river/stock-analysis/blob/main/Resources/Run-time%202018_refactored.png)
+![Run-time 2018 with refactored script](Resources/Run-time%202018_refactored.png)
 
 ### Comparisson between original and refactored scripts
 The first improvement there was defined arrays instead of variables in the refactored script. That reduced the time significantly because the data types used are Single which reduces the time to indicate digits in a number.
 
 ARRAYS & DATA TYPES
 
-![Original Script] (https://github.com/ale-river/stock-analysis/blob/main/Resources/Variables%20defined%20as%20Double.png)
+![Original Script](Resources/Variables%20defined%20as%20Double.png)
 
-![Refactored Script] (https://github.com/ale-river/stock-analysis/blob/main/Resources/Variables%20defined%20as%20Single.png)
+![Refactored Script](Resources/Variables%20defined%20as%20Single.png)
 
 Additionally, the refactored script make efficient to identify the tickers by index them into the for loop.
 
 FOR LOOP INDEXED
 
-![Original Script] (https://github.com/ale-river/stock-analysis/blob/main/Resources/original%20for%20loop.png)
+![Original Script](Resources/original%20for%20loop.png)
 
-![Refactored Script] (https://github.com/ale-river/stock-analysis/blob/main/Resources/refactored%20for%20loop.png)
+![Refactored Script](Resources/refactored%20for%20loop.png)
 
 
 ## SUMMARY
